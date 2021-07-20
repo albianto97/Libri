@@ -76,3 +76,11 @@ app.get('/save/:title/:author', function (req, res) {
 app.listen( 8080, function () {
     console.log('Books server ready');
 });
+
+/*var reactApp = express();
+
+reactApp.use( '/' , express.static( 'react-books/build' ) );
+
+reactApp.listen( 80 , function() {
+	console.log( 'React app ready' );
+} );*/
